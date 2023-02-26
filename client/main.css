@@ -1,0 +1,126 @@
+body {
+  padding: 0px;
+  font-family: sans-serif;   
+  background-image: linear-gradient(orangered, white);
+} 
+
+.nav {
+  margin-top: 20px;
+  height: 120px;  
+  width: 700px; 
+  margin-left: auto; 
+  margin-right: auto;
+  background-image:linear-gradient(orangered, white); 
+  border-radius: 25px; 
+  box-shadow: 0 0 20px orangered;
+  color: white; 
+  font-weight: 600;
+  font-size: 30px;
+  justify-content: center; 
+  align-items: center; 
+  display: flex; 
+  flex-direction: row; 
+  gap: .5rem;
+}  
+
+.left-icon {
+  height: 50px; 
+  width: 50px; 
+  background-color: white; 
+  box-shadow: 0 0 20px black; 
+  color: orangered;  
+  border: 2px solid orangered; 
+  border-radius: 10px; 
+  font-size: 30px; 
+  padding-left: 14px; 
+  padding-top: 10px;
+} 
+
+#mid-icon {
+  padding-top: 10px;
+}
+
+
+
+.main {
+  height: 700px; 
+  width: 100%;  
+  display: flex;  
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+.main2 {
+  height: 550px; 
+  width: 600px; 
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 50px orangered;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+}  
+
+.row1 {
+  margin-top: 80px;
+}
+
+.row2 { 
+  padding-top: 30px;
+  display: flex; 
+  width: 100%;
+  flex-direction: row; 
+  gap: 1.5rem; 
+  justify-content: center;
+} 
+
+#text {
+  height: 250px; 
+  width: 350px; 
+  box-shadow: 0 0 37px orangered; 
+  border-radius: 10px; 
+  color: orangered; 
+  font-size: 22px;  
+  font-weight: 400; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.error {
+  border: 3px solid red;
+} 
+
+#play-button { 
+background-color: white; 
+border: orangered 2px solid; 
+border-radius: 12px;
+color: orangered; 
+font-size: 20px;
+font-weight: 700; 
+height: 50px; 
+width: 90px;
+}  
+
+#pause-button {
+  background-color: white; 
+  border: orangered 2px solid; 
+  border-radius: 12px;
+  color: orangered; 
+  font-size: 20px;
+  font-weight: 700; 
+  height: 50px; 
+  width: 90px;
+} 
+
+#stop-button {
+  background-color: white; 
+  border: orangered 2px solid; 
+  border-radius: 12px;
+  color: orangered; 
+  font-size: 20px;
+  font-weight: 700; 
+  height: 50px; 
+  width: 90px; 
+}
+
